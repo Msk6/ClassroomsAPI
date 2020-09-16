@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'classes',
 
     'crispy_forms',
+    'rest_framework',
+    'classesAPI',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -105,7 +107,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+# REST_FRAMEWORK = {
+#     # Use Django's standard `django.contrib.auth` permissions,
+#     # or all
+# }
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
